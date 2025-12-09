@@ -1,6 +1,6 @@
-Perfect! Here's your README rewritten with the **dashboard image included** and structured neatly for GitHub:
 
-````markdown
+---
+
 # **Customer Shopping Behavior Analysis**
 
 A complete end-to-end **Data Analytics Project** analyzing customer shopping patterns using **Python, SQL, and Power BI**, and presenting insights through a structured report and Gamma presentation.
@@ -9,7 +9,7 @@ A complete end-to-end **Data Analytics Project** analyzing customer shopping pat
 
 ## 📌 **Overview**
 
-This project explores customer shopping behavior using transactional data.  
+This project explores customer shopping behavior using transactional data.
 It includes:
 
 * Data loading and exploration (Python)
@@ -24,26 +24,26 @@ The goal is to extract insights that support business decisions in marketing, cu
 
 ## 📁 **Dataset**
 
-* **Rows:** 3,900  
-* **Columns:** 18  
-* **Type:** Customer shopping transactions  
+* **Rows:** 3,900
+* **Columns:** 18
+* **Type:** Customer shopping transactions
+* **Main attributes:**
 
-**Main attributes:**
+  * Demographics: age, gender, subscription status
+  * Purchase details: category, item, amount, season, size, color
+  * Behavior: discount use, previous purchases, rating, shipping type
 
-* **Demographics:** age, gender, subscription status  
-* **Purchase details:** category, item, amount, season, size, color  
-* **Behavior:** discount use, previous purchases, rating, shipping type  
 
 ---
 
 ## 🛠 **Tools & Technologies**
 
-* **Python:** Pandas, NumPy, Matplotlib, Seaborn  
-* **Databases:** PostgreSQL / MySQL / SQL Server  
-* **Visualization:** Power BI  
-* **Reporting:** Word / PDF  
-* **Presentation:** Gamma App  
-* **Version Control:** Git & GitHub  
+* **Python:** Pandas, NumPy, Matplotlib, Seaborn
+* **Databases:** PostgreSQL / MySQL / SQL Server
+* **Visualization:** Power BI
+* **Reporting:** Word / PDF
+* **Presentation:** Gamma App
+* **Version Control:** Git & GitHub
 
 ---
 
@@ -51,65 +51,65 @@ The goal is to extract insights that support business decisions in marketing, cu
 
 ### **1. Data Loading (Python)**
 
-* Loaded the dataset using `pandas`  
-* Inspected structure with `df.info()` and `df.describe()`  
-* Checked for missing values and duplicates  
+* Loaded the dataset using `pandas`
+* Inspected structure with `df.info()` and `df.describe()`
+* Checked for missing values and duplicates
 
 ### **2. Exploratory Data Analysis (EDA)**
 
-* Distribution analysis (age, spend, ratings)  
-* Category and trend analysis  
-* Correlation checks  
-* Visualizations using Matplotlib & Seaborn  
+* Distribution analysis (age, spend, ratings)
+* Category and trend analysis
+* Correlation checks
+* Visualizations using Matplotlib & Seaborn
 
 ### **3. Data Cleaning & Feature Engineering**
 
-* Imputed missing values (median by category)  
-* Renamed columns to `snake_case`  
+* Imputed missing values (median by category)
+* Renamed columns to `snake_case`
 * Created new features:
-  * `age_group`  
-  * `purchase_frequency_days`  
-* Removed redundant fields  
+
+  * `age_group`
+  * `purchase_frequency_days`
+* Removed redundant fields
 
 ### **4. SQL Analysis**
 
 Performed analytical queries such as:
 
-* Revenue by gender & age group  
-* Top-rated products  
-* Most popular categories  
-* Discount dependency  
-* Loyal vs. new customers  
-* Shipping method comparison  
-* Subscription behavior  
+* Revenue by gender & age group
+* Top-rated products
+* Most popular categories
+* Discount dependency
+* Loyal vs. new customers
+* Shipping method comparison
+* Subscription behavior
 
 ### **5. Power BI Dashboard**
 
 Visualized insights including:
 
-* KPIs (Revenue, Avg Purchase, Customer Count)  
-* Product performance  
-* Customer segmentation  
-* Discount & subscription insights  
-* Shipping comparisons  
-* Interactive filters (category, gender, season, age group)  
-
-![Power BI Dashboard](dashboad.png)
+* KPIs (Revenue, Avg Purchase, Customer Count)
+* Product performance
+* Customer segmentation
+* Discount & subscription insights
+* Shipping comparisons
+* Interactive filters (category, gender, season, age group)
 
 ### **6. Reports & Presentation**
 
-* Final summary report created (PDF/Word)  
-* Presentation built with **Gamma** for communication of insights  
+* Final summary report created (PDF/Word)
+* Presentation built with **Gamma** for communication of insights
 
 ---
 
 ## 📈 **Key Insights (Summary)**
 
-* Loyal customers spend **2× more** than new customers  
-* Discounts strongly influence purchases in certain categories  
-* Express shipping customers show a higher average order value  
-* Female customers contribute slightly more to total revenue  
-* Ratings correlate with repeat purchases  
+
+* Loyal customers spend **2× more** than new customers
+* Discounts strongly influence purchases in certain categories
+* Express shipping customers show a higher average order value
+* Female customers contribute slightly more to total revenue
+* Ratings correlate with repeat purchases
 
 ---
 
@@ -120,7 +120,7 @@ Visualized insights including:
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-````
+```
 
 ### **2. Install Python requirements**
 
@@ -139,15 +139,16 @@ jupyter notebook
 * Import the cleaned dataset into your SQL database
 * Run SQL scripts from the `sql/` folder
 
+
 ---
 
 ## 📬 **Contact**
 
 **Ibrahim Ndagiwe**
-📧 Email: [ibrahndagiwe99@gmail.com](mailto:ibrahndagiwe99@gmail.com)
+📧 Email: [ibrahndagiwe99@gmail.com](ibrahndagiwe99@gmail.com)
 🔗 LinkedIn: [https://www.linkedin.com/in/ibrahim-ndagiwe-987366256/](https://www.linkedin.com/in/ibrahim-ndagiwe-987366256/)
 💻 GitHub: [https://github.com/EngIbrah](https://github.com/EngIbrah)
 
-```
+---
 
 
