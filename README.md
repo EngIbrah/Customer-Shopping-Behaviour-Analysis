@@ -144,7 +144,7 @@ jupyter notebook
 
 ## 📬 **Contact**
 
-**Your Name**
+**Ibrahim Ndagiwe**
 📧 Email: [ibrahndagiwe99@gmail.com](ibrahndagiwe99@gmail.com)
 🔗 LinkedIn: [https://www.linkedin.com/in/ibrahim-ndagiwe-987366256/](https://www.linkedin.com/in/ibrahim-ndagiwe-987366256/)
 💻 GitHub: [https://github.com/EngIbrah](https://github.com/EngIbrah)
